@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export {http,https,ftp}_proxy='http://172.25.112.22:5865'
+
 { # this ensures the entire script is downloaded #
 
 nvm_has() {
